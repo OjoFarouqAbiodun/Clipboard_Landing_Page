@@ -24,6 +24,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1rem 2rem;
 }
 
 .hero-section img {
@@ -42,7 +43,7 @@ body {
     color: hsl(201, 11%, 66%);
     font-weight: 400;
     font-size: 1.3rem;
-    /* width: 35%; */
+    width: 67%;
     text-align: center;
     line-height: 2rem;
     margin-bottom: 2.5rem;
@@ -81,4 +82,45 @@ body {
 .btn-2:hover {
     box-shadow: 2px 6px 15px rgba(97, 115, 255, 0.377);
     background-color: hsl(233, 100%, 76%);
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .hero-section {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(255, 255, 255)), url(Assets/images/bg-header-mobile.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.hero-section h1 {
+    font-size: 2rem;
+}
+
+.hero-section p {
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.hero-buttons {
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn-1, .btn-2 {
+    padding: 1rem 1.5rem;
+}
 }
