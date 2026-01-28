@@ -56,7 +56,6 @@ body{
 }
 
 .buttons {
-    /* width: 100%; */
     text-wrap: nowrap;
     display: flex;
     gap: 1rem;
@@ -139,7 +138,6 @@ section {
 .workflows {
     display: flex;
     gap: 2rem;
-    /* max-width: 1000px; */
 }
 
 .workflow {
@@ -221,7 +219,6 @@ footer {
     }
 
     .button {
-        /* all: unset; */
         width: 100%;
     }
 
